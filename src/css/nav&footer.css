@@ -1,0 +1,78 @@
+/*  ======================
+    Start Global Variables
+==========================*/
+
+:root{
+    --main-color : rgb(209, 174, 111);
+    --subMain-color : rgb(33, 33, 33);
+    --main-font : 'Roboto', sans-serif;
+}
+
+/*  ====================
+    End Global Variables
+========================*/
+
+
+/* =====================
+    Start Navbar Section
+========================*/
+
+.navbar .container .fa-bars {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .container img {
+    width: 130px;
+}
+
+@media (max-width: 990px) {
+    .navbar .container img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar .container img {
+        width: 70px;
+    }
+
+    .navbar .container .fa-bars {
+        font-size: 15px;
+    }
+}
+
+.navbar .container ul {
+    margin: 0 !important; 
+    padding: 0 !important;
+}
+
+.navbar .container ul a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar .container ul a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: var(--main-color);
+    left: 13px;
+    bottom: 10px;
+    position: absolute;
+    transition: .4s;
+}
+
+.navbar .container ul a:hover::after{
+    content: '';
+    width: calc(100% - 26px);
+}
+
+/* ===================
+    End Navbar Section
+======================*/

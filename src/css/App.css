@@ -1,0 +1,67 @@
+/* =======================
+    Start Global Variables
+==========================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+:root{
+    --main-color : rgb(209, 174, 111);
+    --subMain-color : rgb(33, 33, 33);
+    --main-font : 'Roboto', sans-serif;
+}
+
+.mainBut {
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    color: var(--main-color);
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.mainBut:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+
+@media (max-width: 500px) {
+    .mainBut {
+        width: 150px;
+        height: 35px;
+        font-size: 10px;
+    }
+}
+
+/* fonts
+
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+
+/* =====================
+    End Global Variables
+========================*/
+
+
+
+/* ==================
+    Start App Section
+=====================*/
+
+.App {
+    height: 600vh;
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
+}
+
+/* ================
+    End App Section
+===================*/
