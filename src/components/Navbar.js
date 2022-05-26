@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="navbar navbar-expand-lg">
             <div className='container'>
                 <Link to='/'>
-                    <img className='img-fluid' src={logo}/>
+                    <img className='img-fluid' alt='Zero7' src={logo}/>
                 </Link>
                 <button className="navbar-toggler">
                 <i className="fa-solid fa-bars" />
