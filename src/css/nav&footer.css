@@ -73,6 +73,53 @@
     width: calc(100% - 26px);
 }
 
+.navbar .menu {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 100;
+}
+
+.navbar .menu ul {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+}
+
+.navbar .menu ul .nav-link {
+    color: white;
+}
+
+.navbar .menu ul .nav-link .fa-xmark {
+    color: var(--main-color);
+    font-size: 50px;
+}
+
+@media (max-width: 500px) {
+    .navbar .menu ul {
+        font-size: 20px;
+    }
+
+    .navbar .menu ul .nav-link .fa-xmark {
+        font-size: 40px;
+    }
+}
+
 /* ===================
     End Navbar Section
 ======================*/
