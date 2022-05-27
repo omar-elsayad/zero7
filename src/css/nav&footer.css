@@ -22,6 +22,11 @@
     font-size: 20px;
 }
 
+.navbar .container .fa-cart-shopping {
+    color: white;
+    font-size: 18px;
+}
+
 .navbar .container img {
     width: 130px;
 }
@@ -105,7 +110,7 @@
     color: white;
 }
 
-.navbar .menu ul .nav-link .fa-xmark {
+.navbar .menu ul .fa-xmark {
     color: var(--main-color);
     font-size: 50px;
 }
@@ -115,7 +120,7 @@
         font-size: 20px;
     }
 
-    .navbar .menu ul .nav-link .fa-xmark {
+    .navbar .menu ul .fa-xmark {
         font-size: 40px;
     }
 }
