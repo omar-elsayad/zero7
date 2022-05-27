@@ -21,6 +21,8 @@ const Home = () => {
 
     return (
         <div className="home container">
+
+            {/* start landing seciton */}
             <div className="landing-section d-flex flex-column-reverse-md row">
                 <div className="text-section col-lg-6 col-md-12 d-flex flex-column justify-content-center justify-content-start-md align-items-start">
                     <div className="text-container1">
@@ -41,6 +43,8 @@ const Home = () => {
                 <div className="image-section col-lg-6 col-md-12 d-flex justify-content-center justify-content-start-md align-items-center">
                     <img className='img-fluid' id='img' src={landingImage} alt="" />
                 </div>
+                {/* end landing section */}
+                
             </div>
         </div>
     );

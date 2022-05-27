@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../css/nav&footer.css';
+import '../css/navbar.css';
 import logo from '../images/logo.png';
 
 const Navbar = () => {
@@ -32,14 +32,14 @@ const Navbar = () => {
                 <Link to='/'>
                     <img className='img-fluid' alt='Zero7' src={logo}/>
                 </Link>
-                <div>
-                    <button className="navbar-toggler" onClick={showMenu} >
-                    <i className="fa-solid fa-bars" />
-                    </button>
+                <div className='menu-buttons'>
                     <button className="navbar-toggler" >
                     <Link to='/cart'>
                         <i className="fa-solid fa-cart-shopping" />
                     </Link>
+                    </button>
+                    <button className="navbar-toggler" onClick={showMenu} >
+                    <i className="fa-solid fa-bars" />
                     </button>
                 </div>
                 <div className='collapse navbar-collapse justify-content-end'>
