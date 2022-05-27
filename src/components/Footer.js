@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="icons d-flex">
                         <a href="https://www.facebook.com/zerooosevennn/"><i className="fa-brands fa-facebook-f"></i></a>
                         <a href="https://instagram.com/zero_seven.7?igshid=YmMyMTA2M2Y="><i className="fa-brands fa-instagram"></i></a>
-                        <a href=""><i className="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/zero_seven.7?igshid=YmMyMTA2M2Y="><i className="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
                 <div className='footer-logo col-lg-4 p-5 d-flex justify-content-center'>
