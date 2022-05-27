@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <div className="navbar navbar-expand-lg">
             <div className='container'>
-                <Link to='/'>
+                <Link to='/zero7'>
                     <img className='img-fluid' alt='Zero7' src={logo}/>
                 </Link>
                 <div className='menu-buttons'>

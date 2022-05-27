@@ -4,8 +4,9 @@
 
 :root{
     --main-color : rgb(209, 174, 111);
-    --subMain-color : rgb(33, 33, 33);
-    --main-font : 'Roboto', sans-serif;
+    --subMain-color : rgb(166 166 166);
+    --main-font : 'Merriweather', serif;
+    --secondery-font : 'Oswald', sans-serif;
 }
 
 /*  ====================
@@ -56,7 +57,7 @@
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     text-transform: capitalize;
-    color: white;
+    color: var(--subMain-color);
     position: relative;
     font-size: 20px;
     letter-spacing: 1px;
