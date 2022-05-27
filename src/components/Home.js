@@ -56,7 +56,7 @@ const Home = () => {
             <div className="new-collection-section d-flex flex-row-reverse row mtb">
                 <div className="text-section col-lg-8 col-sm-12 d-flex flex-column justify-content-evenly align-items-center p-5">
                     <div>
-                        <h1 className='text-capitalize text-center'>New summer collection</h1>
+                        <h1 className='text-capitalize text-center pb-4'>New summer collection</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo animi libero, impedit iusto doloribus, obcaecati ipsam unde officiis cupiditate eius nostrum inventore et sunt in eos nobis vel error iste.</p>
                     </div>
                     <Link to='/shop'>
@@ -74,13 +74,13 @@ const Home = () => {
             <div className="new-collection-section row mtb">
                 <div className="text-section col-lg-8 col-sm-12 d-flex flex-column justify-content-evenly align-items-center p-5">
                     <div>
-                        <h1 className='text-capitalize text-center'>New summer collection</h1>
+                        <h1 className='text-capitalize text-center pb-4'>New summer collection</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo animi libero, impedit iusto doloribus, obcaecati ipsam unde officiis cupiditate eius nostrum inventore et sunt in eos nobis vel error iste.</p>
                     </div>                    
                     <Link to='/shop'>
                         <button className='mainBut'>Shop Now</button>
                     </Link>
-                </div>
+                </div>  
                 <div className="image-section col-lg-4 col-sm-12 p-lg-0 px-sm-5">
                     <img className='img-fluid' src={newCollectionImage2} alt="" />
                 </div> 
